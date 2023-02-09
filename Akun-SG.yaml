@@ -15,3 +15,20 @@ proxies:
     headers:
       Host: z-p15.www.instagram.com
   udp: true
+
+- name: DigitalOcean-Ntls-03/05
+  server: sg3.mahavpn.xyz
+  port: 80
+  type: vmess
+  uuid: 07fed96c-a411-11ed-a3a2-dfd1b0190af3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: z-p15.www.instagram.com
+  network: ws
+  ws-opts:
+    path: /alhamdulillah
+    headers:
+      Host: z-p15.www.instagram.com
+  udp: true
