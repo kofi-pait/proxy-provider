@@ -1,0 +1,17 @@
+proxies:
+- name: Melbikomas-Ntls-03/05
+  server: sg1.mahavpn.xyz
+  port: 80
+  type: vmess
+  uuid: 3134dc1a-a410-11ed-ba30-00163c29b837
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: z-p15.www.instagram.com
+  network: ws
+  ws-opts:
+    path: http://tsel.me/worryfree
+    headers:
+      Host: z-p15.www.instagram.com
+  udp: true
