@@ -1,0 +1,28 @@
+proxies:
+- name: TJ-01_Ex-20-Feb-2023
+  server: udemy.com
+  port: 443
+  type: trojan
+  password: 6ad8e33f-09ed-40a9-accc-03b8a7607259
+  network: ws
+  sni: sg2.trojanvh.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /websocket
+    headers:
+        Host: sg2.trojanvh.xyz
+        
+ - name: TJ-02_Ex-20-Feb-2023
+  server: udemy.com
+  port: 443
+  type: trojan
+  password: 6ad8e33f-09ed-40a9-accc-03b8a7607259
+  network: ws
+  sni: sg2.trojanvh.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /websocket
+    headers:
+        Host: udemy.com
